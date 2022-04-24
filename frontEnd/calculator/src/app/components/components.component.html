@@ -1,0 +1,45 @@
+<div class ="container">
+    <div>
+        <p>Calculator Z.A</p>
+        <button (click)="clear()" class="reset">reset</button>
+    </div>
+    <div><input type="text" name="Data" placeholder="0" id="datashow" value={{onshow}}></div>
+    <div><button (click)="put('%')" class="op">%</button>
+        <button (click)="put('^')" class="op">^</button>
+        <button style="border:none;background-color:transparent;">
+            <button class="op" (click)="put('(')" style="width: 48%;margin-left: -15px;">(</button>
+            <button class="op" (click)="put(')')" style="width: 48%;margin-right: -15px;">)</button>
+        </button>
+        <button (click)="delete()" class="op">Del</button>
+    </div>
+    <div>
+        <button (click)="put('1/')" class="op">1/x</button>
+        <button (click)="put('^2')" class="op">x<sup>2</sup></button>
+        <button (click)="put('√')" class="op"><sup>2</sup>√x</button>
+        <button (click)="put('/')" class="op">/</button>
+    </div>
+    <div>
+        <button (click)="put('7')">7</button>
+        <button (click)="put('8')">8</button>
+        <button (click)="put('9')">9</button>
+        <button (click)="put('*')" class="op">*</button>
+    </div>
+    <div>
+        <button (click)="put('4')">4</button>
+        <button (click)="put('5')">5</button>
+        <button (click)="put('6')">6</button>
+        <button (click)="put('-')"class="op">-</button>
+    </div>
+    <div>
+        <button (click)="put('1')">1</button>
+        <button (click)="put('2')">2</button>
+        <button (click)="put('3')">3</button>
+        <button (click)="put('+')" class="op">+</button>
+    </div>
+    <div>
+        <button (click)="change()">+/-</button>
+        <button (click)="put('0')">0</button>
+        <button (click)="put('.')">.</button>
+        <button (click)="sendrequest()" class="op">=</button>
+    </div>
+</div>

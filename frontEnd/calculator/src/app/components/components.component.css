@@ -1,0 +1,40 @@
+
+button{
+    padding: 10px;
+    width: calc((100% - 45px) / 4);
+    height: 12%;
+    font-weight: bold;
+    margin: 5px;
+}
+.container{
+    width: 30%;
+    border: 5px solid black;
+    height: 100%;
+}
+#datashow{
+    height: 80px;
+    width: 95%;
+    margin: 0px 5px 0px 5px;
+    margin-top: 15px;
+    font-size: 40px;
+    background-color: lightcyan;
+}
+.op{
+    background-color:lightcoral;
+    font-size: 20px;
+}
+.reset{
+    background-color:rgba(240, 6, 6, 0.808);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 0px;
+    margin-left: 85px;
+}
+p{
+    font-weight: bold;
+    display: inline;
+    font-size: 50px;
+    color: royalblue;
+
+}
